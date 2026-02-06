@@ -1,0 +1,5 @@
+streamlit run app.py
+
+python src/process_chunks.py
+
+python src/rule_engine.py
