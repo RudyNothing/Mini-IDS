@@ -7,3 +7,6 @@ The project uses Python to process traffic data and apply rule-based detection. 
 The system uses the CICIDS2017 cleaned dataset, which contains labeled network traffic representing both normal behavior and multiple attack types. This dataset helped validate the detection logic against realistic and diverse traffic patterns.
 
 The detection logic follows a rule-based approach, where traffic features such as packet counts, flow duration, and request frequency are analyzed to identify suspicious behavior like brute-force attempts, scanning activity, or traffic floods. These rules were intentionally kept simple and transparent to clearly demonstrate how an IDS makes decisions at a fundamental level.
+
+
+The CICIDS2017_cleaned datasent can be downloaded from Kaggle or HuggingFace.
